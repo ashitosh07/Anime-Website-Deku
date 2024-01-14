@@ -13,6 +13,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Movie from './Movie'
 import EpisodesRow from './EpisodesRow'
+import Footer from './Footer'
 
 const Discover = () => {
   const [mainIndex, setMainIndex] = useState(0)
@@ -120,6 +121,7 @@ const Discover = () => {
           <EpisodesRow title='Latest Episodes' url={requests.fetchTopRated} />
         </div>{' '}
       </div>
+      {/* <Footer /> */}
     </>
   )
 }
